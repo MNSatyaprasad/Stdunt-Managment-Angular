@@ -8,12 +8,14 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 import { StudentsComponent } from './components/students/students.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { StudentsdataComponent } from './components/studentsdata/studentsdata.component';
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomepageComponent,
     StudentsComponent,
+    StudentsdataComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

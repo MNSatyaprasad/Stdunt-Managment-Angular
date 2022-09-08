@@ -1,0 +1,16 @@
+<button type="button" class="btn btn-outline-warning" (click)="get()">
+  StudentsList
+</button>
+<ol class="list-group list-group-numbered">
+  <li *ngFor="let s of studentsdata" class="list-group-item">
+    <span>{{ s.firstName }}</span>
+    <br />
+    <span>{{ s.lastName }}</span>
+    <br />
+    <span>{{ s.stdclass }}</span>
+    <br />
+    <span>{{ s.subject }}</span>
+    <br />
+    <span>{{ s.dob }}</span>
+  </li>
+</ol>
