@@ -9,6 +9,8 @@ import { StudentsComponent } from './components/students/students.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { StudentsdataComponent } from './components/studentsdata/studentsdata.component';
+import { DeletedstdComponent } from './components/deletedstd/deletedstd.component';
+import { StdupdateComponent } from './components/stdupdate/stdupdate.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +18,8 @@ import { StudentsdataComponent } from './components/studentsdata/studentsdata.co
     HomepageComponent,
     StudentsComponent,
     StudentsdataComponent,
+    DeletedstdComponent,
+    StdupdateComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
